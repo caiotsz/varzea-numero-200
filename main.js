@@ -10,3 +10,6 @@ let areaTrapezio=function(base1,base2,altura){
     return (base1+base2)*altura/2;
 }
 console.log(areaTrapezio(10,10,10));
+function media(number1,number2,number3){
+    return(number1+number2+number3)/3
+}
