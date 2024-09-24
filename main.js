@@ -19,5 +19,9 @@ function media(number1,number2,number3){
 let input = prompt ('Digite 3 numeros separados por virgulas');
 let numeros = input.split(',').map(Number);
 let resultadoMedia = media(numeros[0], numeros[1], numeros[2]);
-document.write ('A desgraca da media dos 3 numeros eh: ' + resultadoMedia)
+document.write ('A desgraca da media dos 3 numeros eh: ' + resultadoMedia);
+
+function baskara(a,b,c){
+    return(-b+Math.sqrt(b**2*-4*a*c))/2
+}
 
