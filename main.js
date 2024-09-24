@@ -17,6 +17,7 @@ function media(number1,number2,number3){
 }
 
 let input = prompt ('Digite 3 numeros separados por virgulas');
+let numeros = input.split(',').map(Number)
 let resultadoMedia = media (number1,number2,number3);
 document.write(resultadoMedia)
 
