@@ -16,6 +16,8 @@ function media(number1,number2,number3){
     return(number1+number2+number3)/3;
 }
 parseInt(prompt('Média de 3 números')){
-document.write(media)}
+return(document.write(media))
+}
+
     
 
