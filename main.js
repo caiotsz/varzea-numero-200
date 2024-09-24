@@ -15,9 +15,7 @@ console.log(areaTrapezio(10,10,10));
 function media(number1,number2,number3){
     return(number1+number2+number3)/3;
 }
-parseInt(prompt('Média de 3 números')){
-return(document.write(media))
-}
+parseInt(prompt('Média de 3 números'))a
 
     
 
