@@ -18,5 +18,5 @@ function media(number1,number2,number3){
 
 let media1 = prompt ('media de 3 numeros')
 
-    media=document.write(media1)
+   function media=document.write(media1)
 
