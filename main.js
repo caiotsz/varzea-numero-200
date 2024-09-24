@@ -16,12 +16,33 @@ function media(number1,number2,number3){
     return(number1+number2+number3)/3;
 }
 
-let input = prompt ('Digite 3 numeros separados por virgulas');
-let numeros = input.split(',').map(Number);
-let resultadoMedia = media(numeros[0], numeros[1], numeros[2]);
-document.write ('A desgraca da media dos 3 numeros eh: ' + resultadoMedia);
+function bhaskara(a, b, c) {
+   
+    let delta = b * b - 4 * a * c;
 
-function baskara(a,b,c){
-    return(-b+Math.sqrt(b**2*-4*a*c))/2
+   
+    if (delta < 0) {
+        return "Não existem raízes reais";
+    } else if (delta === 0) {
+        
+        let x = -b / (2 * a);
+        return `Raiz única: x = ${x}`;
+    } else {
+       
+        let x1 = (-b + Math.sqrt(delta)) / (2 * a);
+        let x2 = (-b - Math.sqrt(delta)) / (2 * a);
+        return `As raízes são: x1 = ${x1}, x2 = ${x2}`;
+    }
 }
+
+
+let input = prompt('Digite os valores de a, b e c separados por vírgulas (ex: 1, -3, 2)');
+
+
+let valores = input.split(',').map(Number);
+
+let [a, b, c] = valores; 
+let resultado = bhaskara(a, b, c);
+document.write(resultado);
+
 
