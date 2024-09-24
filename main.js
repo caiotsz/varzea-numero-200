@@ -15,8 +15,7 @@ console.log(areaTrapezio(10,10,10));
 function media(number1,number2,number3){
     return(number1+number2+number3)/3;
 }
-
-let media1 = prompt ('media de 3 numeros')
-let media1 = media (number1,number2,number3)
+let media1 = prompt ('Digite 3 numeros entre virgulas');
+let media1 = media (number1,number2,number3);
 document.write(media1)
 
