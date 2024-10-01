@@ -27,7 +27,7 @@ let valores = input.split(',').map(Number);
 let [a, b] = valores;
 
 let hipotenusa = pitagoras(a, b);
-document.write(`meu pau tem esses cm: ${hipotenusa.toFixed(2)}`);
+document.write(`A hipotenusa é: ${hipotenusa.toFixed(2)}`);
 
 
 
@@ -37,4 +37,9 @@ let nomes=['Shelly','Colt','Tick','Darryl','Stu','Crow','Brock','Edgar','Colette
         console.log(i);
         console.log(nomes[i]);
          i=i+1;
+        }
+
+        for(let i=0;i>nomes.length;i++){
+console.log(i);
+console.log(nomes[i])
         }
