@@ -27,7 +27,7 @@ let valores = input.split(',').map(Number);
 let [a, b] = valores;
 
 let hipotenusa = pitagoras(a, b);
-document.write(`A hipotenusa é: ${hipotenusa.toFixed(2)}`);
+document.write(`meu pau tem esses cm: ${hipotenusa.toFixed(2)}`);
 
 
 
