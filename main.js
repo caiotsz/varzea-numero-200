@@ -32,6 +32,7 @@ document.write(`A hipotenusa é: ${hipotenusa.toFixed(2)}`);
 
 
 let nomes=['Shelly','Colt','Tick','Darryl','Stu','Crow','Brock','Edgar','Colette','Emz','Buzz','Mortis','Rosa','Nita','Carl','Bo','Poco','Frank','Eugenio','Bibi']
-    let i=0;  while(i<nomes.length){
+    let i=0; 
+     while(i<nomes.length){
         console.log(i);console.log(nomes[i]) i=i+1;
         }
