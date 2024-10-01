@@ -23,15 +23,15 @@ function pitagoras(a, b) {
 
 let input = prompt('Digite os valores dos catetos a e b separados por vírgulas (ex: 3, 4)');
 
-
 let valores = input.split(',').map(Number);
 let [a, b] = valores;
-
 
 let hipotenusa = pitagoras(a, b);
 document.write(`A hipotenusa é: ${hipotenusa.toFixed(2)}`);
 
-let nomes ['Shelly','Colt','Tick','Darryl','Stu','Crow','Brock','Edgar','Colette','Emz','Buzz','Mortis','Rosa','Nita','Carl','Bo','Poco','Frank','Eugenio','Bibi']
-    let i=0;  while(i<20){
+
+
+let nomes=['Shelly','Colt','Tick','Darryl','Stu','Crow','Brock','Edgar','Colette','Emz','Buzz','Mortis','Rosa','Nita','Carl','Bo','Poco','Frank','Eugenio','Bibi']
+    let i=0;  while(i<nomes.length){
         console.log(i);console.log(nomes[i]) i=i+1;
         }
