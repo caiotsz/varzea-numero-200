@@ -43,7 +43,7 @@ let nomes=['Shelly','Colt','Tick','Darryl','Stu','Crow','Brock','Edgar','Colette
 console.log(i);
 console.log(nomes[i]);
         };
-        let idade=16
+        let idade=parseInt(prompt('Qual a sua idade?'))
         if(idade>17){
             console.log('Pode dirigir');
         }
