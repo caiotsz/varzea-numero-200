@@ -31,6 +31,5 @@ let [a, b] = valores;
 let hipotenusa = pitagoras(a, b);
 document.write(`A hipotenusa é: ${hipotenusa.toFixed(2)}`);
 
-let nomes('Shelly','Colt','Tick','Darryl','Stu','Crow','Brock','Edgar','Colette','Emz','Buzz','Mortis','Rosa','Nita','Carl','Bo','Poco','Frank','Eugenio','Bibi')
+let nomes ['Shelly','Colt','Tick','Darryl','Stu','Crow','Brock','Edgar','Colette','Emz','Buzz','Mortis','Rosa','Nita','Carl','Bo','Poco','Frank','Eugenio','Bibi']
     
-
