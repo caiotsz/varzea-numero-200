@@ -41,5 +41,12 @@ let nomes=['Shelly','Colt','Tick','Darryl','Stu','Crow','Brock','Edgar','Colette
 
         for(let i=0;i>nomes.length;i++){
 console.log(i);
-console.log(nomes[i])
+console.log(nomes[i]);
+        }]
+        let idade=16
+        if(idade>17){
+            console.log('Pode dirigir');
         }
+       else {
+        console.log('Pode dirigir não')
+       }
