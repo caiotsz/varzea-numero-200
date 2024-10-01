@@ -20,14 +20,17 @@ function pitagoras(a, b) {
     return Math.sqrt(a * a + b * b);
 }
 
-// Solicita os catetos ao usuário
+
 let input = prompt('Digite os valores dos catetos a e b separados por vírgulas (ex: 3, 4)');
 
-// Converte a string de entrada em um array de números
+
 let valores = input.split(',').map(Number);
 let [a, b] = valores;
 
-// Calcula a hipotenusa
+
 let hipotenusa = pitagoras(a, b);
 document.write(`A hipotenusa é: ${hipotenusa.toFixed(2)}`);
+
+let nomes('Shelly','Colt','Tick','Darryl','Stu','Crow','Brock','Edgar','Colette','Emz','Buzz','Mortis','Rosa','Nita','Carl','Bo','Poco','Frank','Eugenio','Bibi')
+    
 
